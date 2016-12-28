@@ -13,7 +13,7 @@ public:
 
 void Circle::draw()
 {
-	glColor4f(0.0, 0.0, 0.8, this->alpha);
+	glColor4f(1.0, 1.0, 0.0, this->alpha);
 	glBegin(GL_LINE_LOOP);
 	for (float i = 0.0; i<2 * 3.14; i += 3.14 / 18)
 	{
